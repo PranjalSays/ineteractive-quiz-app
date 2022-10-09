@@ -1,31 +1,76 @@
 :root{
-    width: 100%;
-    font-size: 100%;
+    background-color:hsl(216, 12%, 8%);
+    box-sizing: border-box;
+    /* width: 1440px; */
 }
 body{
-box-sizing: border-box;
-padding: 0px;
-margin: 0%;
-background-color: hsl(216, 12%, 8%);
-}
-/* For Big Box */
+    font-family: 'Zen Kurenaido', sans-serif;
+} 
 .mainBox{
     background-color: hsl(213, 19%, 18%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 0px solid  hsl(213, 19%, 18%);
-    width: 20rem;
-    height: 18rem;
-    margin: 10rem 32rem;
-    border-radius: 1.7rem;
-    font-family: 'Overpass', sans-serif;
+    width: 24em;
+    height: 21em;
+    display: block;
+    margin-left: 27em;
+    margin-top: 7em;
+    border: 2px solid hsl(212, 19%, 13%);
+    border-radius:28px;
 }
 
-/* Heading */
-.content{
-    color: hsl(0, 0%, 100%);
+h2{
+    /* margin-bottom: 60px; */
+    margin-left: 1em;
+    margin-top: 3.2em;
+    letter-spacing: 0.4px;
+    color:  hsl(0, 0%, 100%);
 }
 p{
+    margin-left: 1.5em;
+    margin-top: 2em;
+    margin-right: 0.3em;
+    letter-spacing: 0.4px;
     color: hsl(217, 12%, 63%);
+}
+.btns{
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:2em ;
+}
+.justify-content{
+    justify-content: space-evenly;
+}
+
+.btn{
+    padding:0.8em 0.8em 0.8em 0.8em;
+    border-radius:50%;
+    text-decoration: none;
+    background-color:hsl(213, 15%, 14%);
+    border: 1px solid hsl(212, 19%, 13%);
+    color: whitesmoke;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4em ;
+}
+.sbtBtn{
+    padding: 0.5em 10em;
+    border-radius: 16px;
+    background-color: rgb(238, 128, 31);
+    border: 0px solid rgb(238, 128, 31);
+    color: rgb(245, 243, 154);
+}
+.sbtBtn:hover{
+    cursor: pointer;
+    cursor: pointer;
+    transform: translateX(-0.3em);
+    transition: transform 150ms;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: translateX(-0.3em);
+    border: 0px solid  rgb(148, 145, 145) ;
+    transition: transform 150ms;
 }
